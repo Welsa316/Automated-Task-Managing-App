@@ -1,0 +1,21 @@
+{
+  "name": "canvas-flow-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start:dev": "NODE_ENV=development electron .",
+    "dist:mac": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "com.canvasflow.app",
+    "productName": "Canvas Flow",
+    "mac": { "category": "public.app-category.productivity", "target": ["dmg"] },
+    "directories": { "output": "dist" },
+    "files": ["main.js", "preload.js"]
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  }
+}

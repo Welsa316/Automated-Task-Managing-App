@@ -11,3 +11,4 @@ electron/out/
 electron/dist/
 frontend/dist/
 backend/dist/
+*.tsbuildinfo
