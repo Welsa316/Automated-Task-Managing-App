@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.env
+*.db
+*.sqlite
+.DS_Store
+*.log
+.vite/
+electron/out/
+electron/dist/
+frontend/dist/
+backend/dist/
